@@ -1,0 +1,72 @@
+body{
+    background-color: lightgray;
+}
+
+.inside-box{
+    background-color: whitesmoke;
+    padding: 30px 15px;
+    margin: 30px 5px;
+}
+h1{
+    padding:20px 0px;
+    text-align: center;
+    width: 50px;
+   
+}
+.sub-title{
+    text-align: center;
+}
+
+img{
+    width:250px;
+    height:250px;
+}
+
+.flex-1{
+    
+    display:inline-flex;
+   
+}
+
+.form{
+    text-align: right;
+    padding: 0px 20px;
+}
+
+.btn{
+    padding-top:30px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.field{
+    padding:10px;
+}
+
+#seat{
+    padding-right:110px;
+}
+
+select{
+    margin-left:5px;
+    padding:5px;
+}
+@media only screen and (min-width: 768px) {
+    img{
+        width:200px;
+        height:150px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .flex-1{
+    
+        display:block;
+       
+    }
+
+    .form{
+        text-align: left;
+        padding: 0px 20px;
+    }
+}
